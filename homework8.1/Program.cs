@@ -68,6 +68,7 @@ namespace homework8._1
                 if (list[i] > 25 && list[i] < 50)
                 {
                     list.RemoveAt(i);
+                    i--;
                 }
             }
             Console.WriteLine();
